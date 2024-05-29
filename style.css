@@ -1,0 +1,64 @@
+body{background-size:cover;
+background-position:50%;
+background-attachment: fixed;
+}/*background size:cover es para que la imagen cubra toda la pagina */
+.a{ font-size:150%; /*font size es para el tamano de la letra*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /*font family es para el tipo de letra(fuente)*/}
+
+.b{font-size:100%;}/*font size es para el tamano de la letra*/
+
+.c{font-family:Arial, Helvetica, sans-serif; font-size:x-large;}/*font family es para el tipo de letra(fuente)*/
+
+.d{font-family:'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: large;}/*font family es para el tipo de letra(fuente)*/
+
+.e{background-color: dodgerblue; font-size: 20px;/*background color es para el color de boton*/}
+.e:hover{background-color: rgb(0, 0, 156);/*sirve para cuando ponga el mouse cambie de color o asi*/}
+
+button {border-radius: 5px; padding: 5px; cursor:pointer; /* border radius es para que el boton tenga redondeada las orillas, 
+    entre mas alto el numero mas redondo el asunto. Pading es para el tamano del boton entre mas alto el numero mas grande el asunto.
+    Cursor pointer es la manita que sale al momento de poner el mouse encima del boton*/}
+    @font-face {
+        /* link de los iconos que te llevan a las paginas principales de facebook,instagram y whatsapp*/
+        font-family: 'icomoon';
+        src:  url('icomoon.eot?c55y5o');
+        src:  url('fonts/icomoon.eot?c55y5o#iefix') format('embedded-opentype'),
+          url('icomoon.ttf?c55y5o') format('truetype'),
+          url('icomoon.woff?c55y5o') format('woff'),
+          url('icomoon.svg?c55y5o#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+      
+      [class^="icon-"], [class*=" icon-"] {
+        /* utilice! Importante para evitar problemas con las extensiones del navegador que cambian la fuente */
+        font-family: 'icomoon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      
+        /* Mejor representación de fuentes */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /*cada icono, con su color*/
+    .icon-instagram:before {
+        content: "\e901";
+        color: #37a2dc;
+      }
+      .icon-player-dot-me:before {
+        content: "\e902";
+        color: #f32525;
+      }
+      .icon-whatsapp:before {
+        content: "\e903";
+        color: #25d366;
+      }
+      .icon-fedora:before {
+        content: "\e900";
+        color: #1358e4;
+      }
+   

@@ -1,0 +1,107 @@
+body{ background-size: cover;/*para que la imagen cubra toda la pagina*/}
+/*titulo y s.a de c.v*/
+h6{font-family: gigi;
+font-size: 50px;
+color: rgb(255, 255, 255);}
+h2{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;color: #f32525;}
+h7{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 25px;
+color: aliceblue;}
+h8{font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+color: red;}
+h3{ font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: palegreen;}
+    h4{ font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        color:palegreen;}
+    
+    
+.f{font-family: Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 20px; color: rgb(255, 255, 255);font-weight:bold;}
+.g{font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 15px; color: rgb(255, 219, 18);}
+.h{color :white; text-align-last: center;font-weight:bold;}/*text aling last sirve para alinear el texto en este caso el precio*/
+.i{color :white; text-align-last: center;font-size: 25px;font-weight:bold;}/*font weight:bold sirve para poner en negritas el texto
+ el bold se puede cambiar y cambia la intencidad de la negrita*/
+.j{background-color: rgba(116, 116, 116, 0); font-size: 20px; cursor: pointer;}/*background color es para el color del fonde del boton*/
+.j:hover{background-color: rgba(63, 63, 63, 0.308);}/*la clase j con la etiqueta hover para al momento de poner el mouse se puede cambiar 
+de color con la etiqueta background color */
+div{ color: white;}
+/*Botones*/
+.a{
+    display: flex;
+    /*para centrar los botones*/
+    align-items: center; 
+    align-content: center;
+
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-1{
+    text-decoration: none;
+    /*color del boton*/background-color:palegreen;
+   /*color de letra*/ color: rgb(49,49,49);
+    /*tamano del boton*/padding: 5px 10px;
+    /*forma del boton*/border-radius: 40px;
+    /**/transition: all.3s ease;
+   /*margen del boton*/ margin: 1.5rem;
+}
+.btn-1:hover{
+    background-color:palegreen;/*para que cuando yo presione el boton cambide de color*/
+    color: #000;
+    box-shadow: 
+    0 0 5px palegreen,
+    0 0 30px palegreen,
+    0 0 60px palegreen,
+    0 0 150px palegreen;
+
+}
+    @font-face {
+        /* link de los iconos que te llevan a las paginas principales de facebook,instagram y whatsapp*/
+        font-family: 'icomoon';
+        src:  url('icomoon.eot?c55y5o');
+        src:  url('fonts/icomoon.eot?c55y5o#iefix') format('embedded-opentype'),
+          url('icomoon.ttf?c55y5o') format('truetype'),
+          url('icomoon.woff?c55y5o') format('woff'),
+          url('icomoon.svg?c55y5o#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        font-display: block;
+      }
+      
+      [class^="icon-"], [class*=" icon-"] {
+        /* utilice! Importante para evitar problemas con las extensiones del navegador que cambian la fuente */
+        font-family: 'icomoon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+      
+        /* Mejor representación de fuentes */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      /*cada icono, con su color*/
+    .icon-instagram:before {
+        content: "\e901";
+        color: #37a2dc;
+      }
+      .icon-player-dot-me:before {
+        content: "\e902";
+        color: #f32525;
+      }
+      .icon-whatsapp:before {
+        content: "\e903";
+        color: #25d366;
+      }
+      .icon-fedora:before {
+        content: "\e900";
+        color: #1358e4;
+      }
+
+
